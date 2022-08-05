@@ -1,8 +1,13 @@
+import Header from "./components/Header"
+import PrincipalView from "./components/PrincipalView"
 
 
-function App() {
+function App() { 
   return (
-    <h1>TESTE APP</h1>
+    <>
+    <Header />
+    <PrincipalView /> 
+    </>
   )
 }
 
